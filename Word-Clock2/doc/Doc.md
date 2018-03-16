@@ -66,20 +66,17 @@ Materia: Modulo 306
 
 Allievi:
 
-- Samuel Dias Da Silva
-- Loris Bruno
-- Alessandro Narciso
-- Massimo Saia
-- Carlo Bogani
+- Fabio Gola
+- Alessandro Gomes
 
 
 Docente responsabile:
 
 - Adriano Barchi
 
-Data di inizio: 27.01.2017
+Data di inizio: 16.03.2017
 
-Data di fine: 12.05.2017
+Data di fine: 18.05.2017
 
 ### Abstract
 
