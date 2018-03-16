@@ -108,7 +108,6 @@ Con la tecnologia si fanno sempre più progressi, per questo con il tempo
 gli orologi analogici non verranno più utilizzati.
 L'utilizzo del digitale sta avendo il soppravento e quindi per le strade o
 nelle strutture come case ed uffici possiamo trovare un orologio numerico.
-
 Il prodotto comprende una lettura diversa dal solito poiché l'ora verrà espressa
 a parole, questo sarà accessibile a chiunque.
 
@@ -117,58 +116,48 @@ a parole, questo sarà accessibile a chiunque.
 
   |ID  | REQ-001                                         |
   |:----|:------------------------------------------------|
-  |**Nome**    |Ergonomia |
+  |**Nome**    |Realizzare un applicativo che mostri l'ora corrente |
   |**Priorità** | 1                     |
   |**Versione** | 1.0                   |
   |**Note**    | |
   |            |**Sotto requisiti** |
-  |**001**  | L’orologio dovrà mostrare le ore in italiano secondo il modo di espressione corrente  |
-  |**002**  | La posizione delle parole dovrà essere ottimizzata per una facile lettura   |
-  |**003**  | Dovrà avere una risoluzione minima di cinque minuti   |
-  |**004**  | L’intervallo tra i cinque minuti dovrà essere mostrato con una rappresentazione grafica intuitiva, risoluzione minima di un minuto.  |
+  |**001**  | L’orologio dovrà mostrare le ore in lingua italiana  |
+  |**002**  | Il sistema di accenzione delle parole verra implementato utilizzando un Led stripes NeoPixel   |
+  
 
 
 
   |ID  |REQ-002                                         |
   |:----|:------------------------------------------------|
-  |**Nome**    |Modello fisico |
+  |**Nome**    |Connessione wi-fi |
   |**Priorità** |1                     |
   |**Versione** |1.0                   |
   |**Note**    ||
   |            |**Sotto requisiti** |
-  |**001**  | Il sistema di controllo del display a parole dovrà comunque già essere dimensionato, oppure prevedere un’espansione, per controllare un modello più grande di ca. 2m x 2m  |
-  |**002**  | Il modello fisico dovrà essere alimentato autonomamente ed essere sincronizzato automaticamente (tramite Wi-Fi sui diversi time server a disposizione)  |
-  |**003**  | In caso di interruzione di alimentazione, un RTC alimentato a batteria dovrà mantenere l’ora sincronizzata in modo che al ritorno dell’alimentazione, l’orologio sia già corretto  |
-  |**004**  | Il modello fisico dovrà poter essere controllato (accensione, correzione dell’ora) anche direttamente onboard  |
-  |**005**  | Il sistema di accenzione delle parole verra implementato utilizzando un Led stripes NeoPixel  |
-
+  |**001**  | La connessione verrà eseguita autonomamente|
+  |**002**  | Ritornerà l'orario aggiornato rispetto il meridiano di Greenwich  |
+  
   |ID  |REQ-003                                         |
   |:----|:------------------------------------------------|
-  |**Nome**    |Modello virtuale |
+  |**Nome**    |Alimentazione |
   |**Priorità** |1                     |
   |**Versione** |1.0                   |
   |**Note**    ||
   |            |**Sotto requisiti** |
-  |**001**  | Il modello virtuale dovrà avere la stessa rappresentazione grafica di quello fisico |
-  |**002**  | Sincronizzazione con il modello fisico |
-  |**003**  | Tramite un accesso ristretto dovrà permettere di controllare il modello fisico e di testarne l’integrità permettendo l’accensione simultanea di tutti i led   |
+  |**001**  | L'orologio verrà alimentato autonomamente |
+  |**002**  | In caso di interruzione verrà alimentato tramite una batteria esterna |
+  |**003**  | La batteria esterna permetterà di mantenere l'orario aggiornato |
 
-### Use case
-
-![Use Case](Allegati/use_case.png)
-
-In questo schema abbiamo rappresentato tutti i rispettivi casi dell'applicativo
-web (modello virtuale).
-
-Lo use case presenta tre attori principali: il sito, l'amministratore e l'utente ospite.
-
-Il primo attore è il sito che fornirà al modello fisico e all'utente ospite l'orario, inoltre, quest'ultimo avrà il controllo sul modello fisico.
-
-Il secondo potrà testare i led del modello fisico e modificarne pure l'orario, ma per fare ciò dovrà prima eseguire il login da amministratore sul sito.
-
-Il terzo attore é l'utente ospite che potrà leggere l'orario fornito dal primo attore, il sito.
-
-In questo schema abbiamo rappresentato tutti i rispettivi casi dell'applicativo web (modello virtuale).
+  |ID  |REQ-004                                         |
+  |:----|:------------------------------------------------|
+  |**Nome**    |Controllo OnBoard |
+  |**Priorità** |1                     |
+  |**Versione** |1.0                   |
+  |**Note**    ||
+  |            |**Sotto requisiti** |
+  |**001**  | L'orologio dovrà poter essere controllato direttamente onboard |
+  |**002**  | Il primo controllo sarà per l'accensione |
+  |**003**  | Il secondo controllo sarà per la correzione dell'ora |
 
 ### Pianificazione
 
@@ -205,5 +194,33 @@ I mezzi per realizzare il tutto sono i seguenti:
 
 ### Analisi dei costi
 
-I costi per la realizzazione del progetto sono 50 CHF / h(ora).
-Sono previsite 100 ore lavorative, per un totale di 2000 CHF.
+#### Costo per persona:
+È stimato che un apprendista al nostro stesso livello guadagni circa 60 franchi all`ora.
+
+|Costo per ora:    |Ore        |Totale        |
+|------------------|-----------|--------------|
+|60                |64         |2840 fr.      |
+
+
+#### Costo totale (dipendenti):
+Essendo quattro persone a lavorare in questo progetto, i costi vanno moltiplicati.
+
+|Costo per ora   |Ore   |persone  |Totale     |
+|----------------|------|---------|-----------|
+|60              |64    |2        |5680 fr.  |
+
+
+#### Costo materiali scatola:
+
+|Totale          |
+|----------------|
+|29 fr.          |
+
+
+#### Costo totale:
+Facendo una somma dei vari totali arriviamo al costo totale finale di questo progetto.
+
+|Totale          |
+|----------------|
+|11560 fr.       |
+
