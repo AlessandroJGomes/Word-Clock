@@ -105,8 +105,8 @@ fisico. La parte fisica deve sincronizzarsi alla parte virtuale tramite Wi-Fi.
 ### Analisi del dominio
 
 Con la tecnologia si fanno sempre più progressi, per questo con il tempo
-gli orologi analogici non verranno più usati o magari anche dimenticati.
-L'utilizzo del digitale sta avendo il soppravento in tutto e quindi per le strade o
+gli orologi analogici non verranno più utilizzati.
+L'utilizzo del digitale sta avendo il soppravento e quindi per le strade o
 nelle strutture come case ed uffici possiamo trovare un orologio numerico.
 
 Il prodotto comprende una lettura diversa dal solito poiché l'ora verrà espressa
@@ -122,10 +122,10 @@ a parole, questo sarà accessibile a chiunque.
   |**Versione** | 1.0                   |
   |**Note**    | |
   |            |**Sotto requisiti** |
-  |**001**  | L’orologio dovrà mostrare le ore in italiano secondi il modo di espressione corrente  |
+  |**001**  | L’orologio dovrà mostrare le ore in italiano secondo il modo di espressione corrente  |
   |**002**  | La posizione delle parole dovrà essere ottimizzata per una facile lettura   |
   |**003**  | Dovrà avere una risoluzione minima di cinque minuti   |
-  |**004**  | L’intervallo tra i cinque minuti dovrà essere mostrato con una rappresentazione grafica intuitiva, risoluzione minima di un minuto. Considerare eventualmente anche una rappresentazione dei secondi.  |
+  |**004**  | L’intervallo tra i cinque minuti dovrà essere mostrato con una rappresentazione grafica intuitiva, risoluzione minima di un minuto.  |
 
 
 
@@ -140,6 +140,7 @@ a parole, questo sarà accessibile a chiunque.
   |**002**  | Il modello fisico dovrà essere alimentato autonomamente ed essere sincronizzato automaticamente (tramite Wi-Fi sui diversi time server a disposizione)  |
   |**003**  | In caso di interruzione di alimentazione, un RTC alimentato a batteria dovrà mantenere l’ora sincronizzata in modo che al ritorno dell’alimentazione, l’orologio sia già corretto  |
   |**004**  | Il modello fisico dovrà poter essere controllato (accensione, correzione dell’ora) anche direttamente onboard  |
+  |**005**  | Il sistema di accenzione delle parole verra implementato utilizzando un Led stripes NeoPixel  |
 
   |ID  |REQ-003                                         |
   |:----|:------------------------------------------------|
@@ -173,8 +174,6 @@ In questo schema abbiamo rappresentato tutti i rispettivi casi dell'applicativo 
 
 ![Gantt](Allegati/gantt.PNG)
 
-Le attività evidenziate di colore verde nel diagramma di Gantt, sono in parallelo.
-
 ### Analisi dei mezzi
 
 Questo prodotto sarà compreso in un costrutto di legno per il modello fisico, ed
@@ -184,25 +183,15 @@ I mezzi per realizzare il tutto sono i seguenti:
 
 - Arduino Ethernet: per il funzionamento del modello fisico
 
-- 195 LED da 25 mA: per illuminare le varie lettere
-
-- 195 resistenze da 390 Ohm: utili ai LED
-
 - Alimentatore 12 V e 5 A: per alimentare il modello fisico
 
 - 2 tavole di  compensato 50cm X 50cm spesso 8mm: per la base della griglia
 
 - 4 tavole di compensato 297mm X 420mm spesso 4mm: per la base della griglia
 
-- 28 mosfet: per gestire la matrici di LED
-
 - Plexiglass 40cm X 40cm: utile al modello fisico
 
 - Policarbonato per costruire le varie celle della griglia.
-
-- 4 demultiplexer 74HC4051
-
-- Attrezzi utili (saldatore, scotch, ecc...)
 
 - Linguaggi HTML e CSS: utilizzati per l'interfaccia grafica
 
@@ -217,4 +206,4 @@ I mezzi per realizzare il tutto sono i seguenti:
 ### Analisi dei costi
 
 I costi per la realizzazione del progetto sono 50 CHF / h(ora).
-Sono previsite 100 ore lavorative, per un totale di 5000 CHF.
+Sono previsite 100 ore lavorative, per un totale di 2000 CHF.
