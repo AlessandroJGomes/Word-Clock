@@ -1,0 +1,74 @@
+
+/* --------- MENUS --------- */
+/* STYLE MENU */
+.float-menu {
+  left: 0px;
+  top: 5px;
+  position: fixed;
+  color:black;
+}
+.float-menu-icon {
+  width: 30px;
+  height:30px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background: #fff;
+  font-size: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.float-menu-icon-opened {
+  border-bottom-right-radius: 0px;
+  box-shadow: none;
+}
+/* glyphicon glyphicon-remove-circle */
+.float-menu-icon > i {
+  margin-left: 4px;
+  margin-top: 4px;
+}
+.float-menu-content {
+  width: 275px;
+  margin-left:-300px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background: #fff;
+  padding: 5px;
+  transition: .35s;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.float-menu-content h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.float-menu-content-opened{
+  margin-left:0px;
+}
+
+/* AUTH MENU */
+.float-auth-menu {
+  color:black;
+  position: fixed;
+  right: 0px;
+  top: 5px;
+}
+.float-auth-menu-icon {
+  width: 30px;
+  height:30px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background: #fff;
+  font-size: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.float-auth-menu-icon i {
+  margin-left: 4px;
+  margin-top: 4px;
+}
+.float-auth-menu-logout {
+  margin-top: 5px;
+}
+
+.dyn-text {
+  word-wrap: break-word;
+}
+
+.custom-colors {margin-bottom: 10px;}

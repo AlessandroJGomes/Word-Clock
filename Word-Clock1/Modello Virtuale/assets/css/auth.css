@@ -1,0 +1,47 @@
+body {
+  background-color: #37474F;
+}
+#main__wrapper {
+  margin:75px auto;
+  width:400px;
+  /* height:300px; */
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius:3px;
+}
+#main__wrapper #title_auth {
+  width: 100%;
+  text-align: center;
+  padding-top:10px;
+  height:50px;
+  font-size:35px;
+}
+#main__wrapper #auth_form, #main__wrapper #settings_form {
+  margin-top:20px;
+  width: 100%;
+  text-align: center;
+}
+#main__wrapper #auth_form div, #main__wrapper #settings_form div {
+  padding-left:20px;
+  padding-right:20px;
+  text-align: left;
+}
+#main__wrapper hr {
+  margin-top:0px;
+  margin-bottom:5px;
+}
+#main__wrapper .form-control {
+  height:40px;
+  font-size: 14px;
+}
+.alert {
+  padding: 10px;
+  color: white;
+  border-radius: 3px;
+}
+.alert.alert-success {
+  background: #4caf50;
+}
+.alert.alert-danger {
+  background: red;
+}
