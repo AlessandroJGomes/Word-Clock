@@ -161,37 +161,30 @@ a parole, questo sarà accessibile a chiunque.
 
 ### Pianificazione
 
-![Gantt](Allegati/gantt.PNG)
+![Gantt](Allegati/ganttpreventivo.PNG)
 
 ### Analisi dei mezzi
 
 Questo prodotto sarà compreso in un costrutto di legno per il modello fisico, ed
 in un web server per il modello virtuale.   
 
-I mezzi per realizzare il tutto sono i seguenti:
-
-- Arduino Ethernet: per il funzionamento del modello fisico
-
-- Alimentatore 12 V e 5 A: per alimentare il modello fisico
-
-- 2 tavole di  compensato 50cm X 50cm spesso 8mm: per la base della griglia
-
-- 4 tavole di compensato 297mm X 420mm spesso 4mm: per la base della griglia
-
-- Plexiglass 40cm X 40cm: utile al modello fisico
-
-- Policarbonato per costruire le varie celle della griglia.
+I mezzi software per realizzare il progetto sono i seguenti:
 
 - Linguaggi HTML e CSS: utilizzati per l'interfaccia grafica
 
-- Linguaggi Php, MySQL, JavaScript: utilizzati per la gestione del sito
+- GanttProject 2.8.5, software utilizzato per sviluppare il diagramma di Gantt
 
-- GanttProject 2.8.1 Pilsen, software utilizzato per sviluppare il diagramma di Gantt
+- Fritzing 0.9.3b, utilizzato per la creazione degli schemi elettrici
 
-- Adobe Photoshop CC 2017: utilizzato per realizzare l'immagine scalare
+- Arduino 2.8.5, utilizzato per gestire l'Arduino uno
 
-- KiCad 4.0.6: utilizzato per realizzare alcuni schemi elettrici
+I mezzi hardware per realizzare il progetto sono i seguenti:
 
+- Arduino uno, serve per eseguire lo script ed attivare i NeoPixels
+
+- I nostri PC per realizzare tutte le fasi del progetto
+
+- I LED Stripes NeoPixel 1m 144 LEDS
 ### Analisi dei costi
 
 #### Costo per persona:
