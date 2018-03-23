@@ -54,7 +54,8 @@
 8. [Allegati](#Allegati)
 
 
- Informazioni sul progetto
+## Introduzione
+	### Informazioni sul progetto
 
 		Scuola SAMT - Scuola arti e mestieri Trevano
 
