@@ -1,4 +1,4 @@
-# Word Clock
+# Word-Clock
 
 
 1. [Introduzione](#introduzione)
@@ -55,6 +55,7 @@
 
 
 ## Introduzione
+
 ### Informazioni sul progetto
 
 Scuola SAMT - Scuola arti e mestieri Trevano
@@ -160,18 +161,18 @@ Data di fine: 18.05.2017
 
 È stimato che un apprendista al nostro stesso livello guadagni circa 60 franchi all`ora.
 
-|Costo per ora:    |Ore        |Totale        |
-|------------------|-----------|--------------|
-|60  fr/h          |    72    |4320 fr.      |
+|**Costo per ora**|**Ore**|**Totale**|
+|-----------------|-------|----------|
+|60  fr/h         |72     |4320 fr.  |
 
 
 #### Costo totale (dipendenti):
 
 Essendo due persone a lavorare in questo progetto, i costi vanno moltiplicati.
 
-|Costo per ora   |Ore   |persone  |Totale     |
-|----------------|------|---------|-----------|
-|60  fr/h        |72    |    2    |8640 fr.   |
+|**Costo per ora**|**Ore**|**Persone**|**Totale**|
+|-----------------|-------|-----------|----------|
+|60  fr/h         |72     |2         |8640 fr.  |
 
 
 #### Costo materiali:
@@ -215,3 +216,25 @@ I mezzi software per realizzare il progetto sono i seguenti:
 - I nostri PC per realizzare tutte le fasi del progetto
 
 - I LED Stripes NeoPixel 1m 144 LEDS
+
+## Progettazione
+
+### Design dell’architettura del sistema
+
+![Modello fisico](Allegati/Modello1.png)
+
+Nell'immagine sovrastante è rappresenatato la versione fisica del Word-Clock,
+nelle varie celle verranno visualizzate le lettere necessarie. Il contenitore
+è composto principalmente di compensato a parte le sue separazioni all'interno
+che sono di policarbonato, quest'ultimo è stato usato per rendere il tutto più
+flessibile in modo da prevenire eventuali incidenti.
+
+![Modello fisico](Allegati/Modello2.png)
+
+In immagine viene mostrato, nello specifico, l'altezza e lo spessore
+della parte superiore del supporto, le misure sono visibili nell'immagine.
+
+![Modello fisico](Allegati/Modello3.jpg)
+
+Qua viene rappresentato tutto il contenitore, in cui e ben visibile lo spazio
+sottostante che ospiterà l'Arduino, la Veroboard, l'alimentatore e la cablaggio.
