@@ -162,7 +162,7 @@ Data di fine: 18.05.2017
 
 |Costo per ora:    |Ore        |Totale        |
 |------------------|-----------|--------------|
-|60 fr./h          |72         |4320 fr.      |
+|60  fr/h          |    72    |4320 fr.      |
 
 
 #### Costo totale (dipendenti):
@@ -171,7 +171,7 @@ Essendo due persone a lavorare in questo progetto, i costi vanno moltiplicati.
 
 |Costo per ora   |Ore   |persone  |Totale     |
 |----------------|------|---------|-----------|
-|60 fr./h        |72    |2        |8640 fr.   |
+|60  fr/h        |72    |    2    |8640 fr.   |
 
 
 #### Costo materiali:
