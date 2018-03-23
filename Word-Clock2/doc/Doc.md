@@ -55,7 +55,6 @@
 
 
 ## Introduzione
-
 	### Informazioni sul progetto
 
 		Scuola SAMT - Scuola arti e mestieri Trevano
@@ -158,7 +157,7 @@
 	### Analisi dei costi
 
 	    #### Costo per persona:
-	    
+
 	      È stimato che un apprendista al nostro stesso livello guadagni circa 50 franchi all`ora.
 
 	      |Costo per ora:    |Ore        |Totale        |
