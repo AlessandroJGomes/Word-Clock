@@ -3,53 +3,53 @@
 
 1. [Introduzione](#introduzione)
 
-  -   [Informazioni sul progetto](#informazioni-sul-progetto)
+    -   [Informazioni sul progetto](#informazioni-sul-progetto)
 
-  -   [Abstract](#abstract)
+    -   [Abstract](#abstract)
 
-  -   [Scopo](#scopo)
+    -   [Scopo](#scopo)
 
 2. [Analisi](#analisi)
 
-  - [Analisi del dominio](#analisi-del-dominio)
+    - [Analisi del dominio](#analisi-del-dominio)
 
-  - [Analisi e specifica dei requisiti](#analisi-e-specifica-dei-requisiti)
+    - [Analisi e specifica dei requisiti](#analisi-e-specifica-dei-requisiti)
 
 3. [Use case](#use-case)
 
-  - [Pianificazione](#pianificazione)
+    - [Pianificazione](#pianificazione)
 
-  - [Analisi dei mezzi](#analisi-dei-mezzi)
+    - [Analisi dei mezzi](#analisi-dei-mezzi)
 
 4. [Progettazione](#progettazione)
 
-  - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
+    - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
 
-  - [Design dei dati e database](#design-dei-dati-e-database)
+    - [Design dei dati e database](#design-dei-dati-e-database)
 
 5. [Implementazione](#Implementazione)
 
-  - [Sviluppo](#Sviluppo)
+    - [Sviluppo](#Sviluppo)
 
-  - [Test](#Test)
+    - [Test](#Test)
 
-  - [Protocollo di test](#Protocollo-di-test)
+    - [Protocollo di test](#Protocollo-di-test)
 
-  - [Risultati test](#Risultati-test)
+    - [Risultati test](#Risultati-test)
 
-  - [Mancanze/limitazioni conosciute](#Mancanze/limitazioni-conosciute)
+    - [Mancanze/limitazioni conosciute](#Mancanze/limitazioni-conosciute)
 
 6. [Consuntivo](#Consuntivo)
 
 7. [Conclusioni](#Conclusioni)
 
-  - [Sviluppi futuri](#Sviluppi-futuri)
+    - [Sviluppi futuri](#Sviluppi-futuri)
 
-  - [Considerazioni personali](#Considerazioni-personali)
+    - [Considerazioni personali](#Considerazioni-personali)
 
 8. [Bibliografia](#Bibliografia)
 
-  - [Sitografia](#Sitografia)
+    - [Sitografia](#Sitografia)
 
 9. [Allegati](#Allegati)
 
@@ -125,6 +125,7 @@
 
 
 
+<<<<<<< HEAD
     |ID  |REQ-002                                         |
     |:----|:------------------------------------------------|
     |**Nome**    |Connessione wi-fi |
@@ -145,6 +146,9 @@
     |**001**  | L'orologio verrà alimentato autonomamente |
     |**002**  | In caso di interruzione verrà alimentato tramite una batteria esterna |
     |**003**  | La batteria esterna permetterà di mantenere l'orario aggiornato |
+=======
+![Gantt](Allegati/ganttpreventivo.PNG)
+>>>>>>> 6415a6254228c5dcc3bd5f2cf96cc773ce3a7e75
 
     |ID  |REQ-004                                         |
     |:----|:------------------------------------------------|
@@ -159,6 +163,7 @@
 
   ### Pianificazione
 
+<<<<<<< HEAD
     ![Gantt](Allegati/gantt.PNG)
 
   ### Analisi dei mezzi
@@ -183,6 +188,26 @@
 
 
   ### Analisi dei costi
+=======
+I mezzi software per realizzare il progetto sono i seguenti:
+
+- Linguaggi HTML e CSS: utilizzati per l'interfaccia grafica
+
+- GanttProject 2.8.5, software utilizzato per sviluppare il diagramma di Gantt
+
+- Fritzing 0.9.3b, utilizzato per la creazione degli schemi elettrici
+
+- Arduino 2.8.5, utilizzato per gestire l'Arduino uno
+
+I mezzi hardware per realizzare il progetto sono i seguenti:
+
+- Arduino uno, serve per eseguire lo script ed attivare i NeoPixels
+
+- I nostri PC per realizzare tutte le fasi del progetto
+
+- I LED Stripes NeoPixel 1m 144 LEDS
+### Analisi dei costi
+>>>>>>> 6415a6254228c5dcc3bd5f2cf96cc773ce3a7e75
 
     #### Costo per persona:
       È stimato che un apprendista al nostro stesso livello guadagni circa 60 franchi all`ora.
