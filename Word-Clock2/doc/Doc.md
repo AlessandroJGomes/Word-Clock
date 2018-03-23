@@ -158,11 +158,11 @@ Data di fine: 18.05.2017
 
 #### Costo per persona:
 
-È stimato che un apprendista al nostro stesso livello guadagni circa 50 franchi all`ora.
+È stimato che un apprendista al nostro stesso livello guadagni circa 60 franchi all`ora.
 
 |Costo per ora:    |Ore        |Totale        |
 |------------------|-----------|--------------|
-|50                |64         |3200 fr.      |
+|60 fr./h          |72         |4320 fr.      |
 
 
 #### Costo totale (dipendenti):
@@ -171,7 +171,7 @@ Essendo due persone a lavorare in questo progetto, i costi vanno moltiplicati.
 
 |Costo per ora   |Ore   |persone  |Totale     |
 |----------------|------|---------|-----------|
-|50 fr./h        |64    |2        |6400 fr.   |
+|60 fr./h        |72    |2        |8640 fr.   |
 
 
 #### Costo materiali:
@@ -179,7 +179,7 @@ Essendo due persone a lavorare in questo progetto, i costi vanno moltiplicati.
 |Materiale       |Costo|
 |----------------|-----|
 |                |     |
-|----------------|-----|
+|                |     |
 |Totale:         |     |
 
 
