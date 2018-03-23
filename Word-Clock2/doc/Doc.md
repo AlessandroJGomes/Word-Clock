@@ -54,7 +54,7 @@
 8. [Allegati](#Allegati)
 
 
-## Analisi
+## Introduzione
 
 	### Informazioni sul progetto
 
@@ -99,6 +99,7 @@
 	    > NeaoPixel controllata da un'Arduino che sarà sempre collegato ad un time server
 	    > tramite Wi-Fi in modo tale che sia sempre sincronizzato con l'ora del server.
 
+## Analisi
 
 	### Analisi del dominio
 
@@ -154,6 +155,44 @@
 		|**002**  | Il primo controllo sarà per l'accensione |
 		|**003**  | Il secondo controllo sarà per la correzione dell'ora |
 
+	### Analisi dei costi
+
+	    #### Costo per persona:
+	    
+	      È stimato che un apprendista al nostro stesso livello guadagni circa 50 franchi all`ora.
+
+	      |Costo per ora:    |Ore        |Totale        |
+	      |------------------|-----------|--------------|
+	      |50                |64         |3200 fr.      |
+
+
+	    #### Costo totale (dipendenti):
+
+	      Essendo due persone a lavorare in questo progetto, i costi vanno moltiplicati.
+
+	      |Costo per ora   |Ore   |persone  |Totale     |
+	      |----------------|------|---------|-----------|
+	      |50 fr./h        |64    |2        |6400 fr.   |
+
+
+	    #### Costo materiali:
+
+	      |Materiale       |Costo|
+	      |----------------|-----|
+	      |                |     |
+	      |----------------|-----|
+	      |Totale:         |     |
+
+
+	    #### Costo totale:
+
+	      Facendo una somma dei vari totali arriviamo al costo totale finale di questo progetto.
+
+	      |Totale          |
+	      |----------------|
+	      |                |
+
+
 	### Pianificazione
 
 		![Gantt](Allegati/ganttpreventivo.PNG)
@@ -177,38 +216,3 @@
 		  - I nostri PC per realizzare tutte le fasi del progetto
 
 		  - I LED Stripes NeoPixel 1m 144 LEDS
-
-	### Analisi dei costi
-
-	    #### Costo per persona:
-	      È stimato che un apprendista al nostro stesso livello guadagni circa 50 franchi all`ora.
-
-	      |Costo per ora:    |Ore        |Totale        |
-	      |------------------|-----------|--------------|
-	      |50                |64         |3200 fr.      |
-
-
-	    #### Costo totale (dipendenti):
-	      Essendo due persone a lavorare in questo progetto, i costi vanno moltiplicati.
-
-	      |Costo per ora   |Ore   |persone  |Totale     |
-	      |----------------|------|---------|-----------|
-	      |50 fr./h        |64    |2        |6400 fr.   |
-
-
-	    #### Costo materiali:
-
-	      |Materiale       |Costo|
-	      |----------------|-----|
-	      |                |     |
-	      |----------------|-----|
-	      |Totale:         |     |
-
-
-	    #### Costo totale:
-	      Facendo una somma dei vari totali arriviamo al costo totale finale di questo progetto.
-
-	      |Totale          |
-	      |----------------|
-	      |                |
-
