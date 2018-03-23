@@ -57,25 +57,25 @@
 ## Introduzione
 ### Informazioni sul progetto
 
-	Scuola SAMT - Scuola arti e mestieri Trevano
+Scuola SAMT - Scuola arti e mestieri Trevano
 
-	Sezione: Informatica
+Sezione: Informatica
 
-	Materia: Modulo 306
+Materia: Modulo 306
 
-	Allievi:
+Allievi:
 
-	- Fabio Gola
-	- Alessandro Gomes
+- Fabio Gola
+- Alessandro Gomes
 
 
-	Docente responsabile:
+Docente responsabile:
 
-	- Adriano Barchi
+- Adriano Barchi
 
-	Data di inizio: 16.03.2017
+Data di inizio: 16.03.2017
 
-	Data di fine: 18.05.2017
+Data di fine: 18.05.2017
 
 	### Abstract
 
