@@ -110,7 +110,7 @@ fisico. La parte fisica deve sincronizzarsi alla parte virtuale tramite Wi-Fi.
 Con la tecnologia si fanno sempre più progressi, per questo con il tempo
 gli orologi analogici non verranno più usati o magari anche dimenticati.
 L'utilizzo del digitale sta avendo il soppravento in tutto e quindi per le strade o
-nelle strutture come case ed uffici possiamo trovare un orologio numerico.
+nelle strutture come case ed uffici possiamo trovare spesso degli orologi digitali.
 
 Il prodotto comprende una lettura diversa dal solito poiché l'ora verrà espressa
 a parole, questo sarà accessibile a chiunque.
