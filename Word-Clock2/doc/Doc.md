@@ -233,7 +233,7 @@ che rappresentano il WordClock. Per permettere che l'ora sia sempre giusta c'é 
 onboard che serve, per accenderlo, per modificare l'ora e, tramite un RTC alimentato anche da
 una batteria indipendente, tenerlo sempre sincronizzato con l'orario corrente.
 
-### Design dell'architettura fisica
+### Design dell’architettura fisica
 
 ![Modello fisico](Allegati/Modello1.png)
 
