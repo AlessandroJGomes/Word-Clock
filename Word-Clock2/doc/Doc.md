@@ -25,6 +25,8 @@
 
     - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
 
+    - [Design dell’architettura fisica](#design-dell’architettura-fisica)
+
     - [Design dei dati e database](#design-dei-dati-e-database)
 
 4. [Implementazione](#Implementazione)
@@ -224,13 +226,24 @@ I mezzi software per realizzare il progetto sono i seguenti:
 
 ### Design dell’architettura del sistema
 
+Questo progetto é composto da una struttura fisica suddivisa in una griglia di quadrati 13 X 14.
+All'interno di ogniuno di essi saranno presenti due Led, questi Led fanno parte di una striscia
+di Led NeoPixel 1m 66 Leds. Posta sopra questa griglia c'é un foglio con parole retroilluminate
+che rappresentano il WordClock. Per permettere che l'ora sia sempre giusta c'é un controllo
+onboard che serve, per accenderlo, per modificare l'ora e, tramite un RTC alimentato anche da
+una batteria indipendente, tenerlo sempre sincronizzato con l'orario corrente.
+
+### Design dell'architettura fisica
+
 ![Modello fisico](Allegati/Modello1.png)
 
-Nell'immagine sovrastante è rappresenatato la versione fisica del Word-Clock,
-nelle varie celle verranno visualizzate le lettere necessarie. Il contenitore
-è composto principalmente di compensato a parte le sue separazioni all'interno
-che sono di policarbonato, quest'ultimo è stato usato per rendere il tutto più
-flessibile in modo da prevenire eventuali incidenti.
+Nell'immagine sovrastante è rappresenatato la versione fisica del Word Clock,
+nelle varie celle verranno visualizzate le lettere necessarie. Le misure prese
+sono quelle imposte nel mandato. Il contenitore è composto principalmente di
+compensato a parte le sue separazioni all'interno che sono di policarbonato,
+quest'ultimo è stato usato per rendere il tutto più flessibile in modo da
+prevenire eventuali incidenti.
+
 
 ![Modello fisico](Allegati/Modello2.png)
 
@@ -240,4 +253,5 @@ della parte superiore del supporto, le misure sono visibili nell'immagine.
 ![Modello fisico](Allegati/Modello3.jpg)
 
 Qua viene rappresentato tutto il contenitore, in cui e ben visibile lo spazio
-sottostante che ospiterà l'Arduino, la Veroboard, l'alimentatore e la cablaggio.
+sottostante che ospiterà la scheda Arduino, le due Veroboard e l'alimentatore.
+
