@@ -172,16 +172,19 @@ Essendo due persone a lavorare in questo progetto, i costi vanno moltiplicati.
 
 |**Costo per ora**|**Ore**|**Persone**|**Totale**|
 |-----------------|-------|-----------|----------|
-|60  fr/h         |72     |2         |8640 fr.  |
+|60  fr/h         |72     |2          |8640 fr.  |
 
 
 #### Costo materiali:
 
-|Materiale       |Costo|
-|----------------|-----|
-|                |     |
-|                |     |
-|Totale:         |     |
+|**Materiale**                  |**Costo**|
+|-------------------------------|---------|
+|DCF77 RTC                      |12.94 fr.|
+|Led stripes NeoPixel 1m 66 Leds|         |
+|Arduino Uno                    |23.73 fr.|
+|                               |         |
+|                               |         |
+|Totale:                        |         |
 
 
 #### Costo totale:
