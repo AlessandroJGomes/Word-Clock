@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="GanttUfficiale" company="" webLink="http://" view-date="2018-02-09" view-index="0" gantt-divider-location="477" resource-divider-location="300" version="2.8.5" locale="it">
+<?xml version="1.0" encoding="UTF-8"?><project name="GanttUfficiale" company="" webLink="http://" view-date="2018-03-03" view-index="0" gantt-divider-location="477" resource-divider-location="300" version="2.8.5" locale="it">
     <description/>
-    <view zooming-state="default:3" id="gantt-chart">
+    <view zooming-state="default:0" id="gantt-chart">
         <field id="tpd3" name="Nome" width="260" order="0"/>
         <field id="tpd4" name="Data d'inizio" width="110" order="1"/>
         <field id="tpd5" name="Data di fine" width="103" order="2"/>
@@ -33,18 +33,18 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Analisi" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true">
+        <task id="0" name="Analisi" meeting="false" start="2018-03-16" duration="5" complete="0" expand="true">
             <task id="9" name="intervista cliente" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true"/>
             <task id="191" name="Risoluzione dei dubbi" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true"/>
             <task id="14" name="analisi del dominio" color="#8cb6ce" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true"/>
             <task id="15" name="analisi dei requisiti" color="#8cb6ce" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true"/>
-            <task id="13" name="analisi costi e benefici" color="#8cb6ce" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true"/>
+            <task id="13" name="analisi costi e benefici" color="#8cb6ce" meeting="false" start="2018-03-16" duration="5" complete="0" expand="true"/>
         </task>
         <task id="20" name="Progettazione" meeting="false" start="2018-03-16" duration="5" complete="0" expand="true">
             <task id="89" name="Gantt" color="#8cb6ce" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true"/>
-            <task id="160" name="Design struttura Led" color="#8cb6ce" meeting="false" start="2018-03-23" duration="1" complete="0" expand="true"/>
+            <task id="160" name="Design struttura Led" color="#8cb6ce" meeting="false" start="2018-03-23" duration="4" complete="0" expand="true"/>
             <task id="193" name="Design alimentazione" color="#8cb6ce" meeting="false" start="2018-04-13" duration="1" complete="0" expand="true"/>
-            <task id="211" name="Design controllo onboard" color="#8cb6ce" meeting="false" start="2018-04-13" duration="1" complete="0" expand="true"/>
+            <task id="211" name="Design controllo onboard" color="#8cb6ce" meeting="false" start="2018-03-23" duration="4" complete="0" expand="true"/>
         </task>
         <task id="195" name="Implementazione" color="#8cb6ce" meeting="false" start="2018-04-20" duration="4" complete="0" expand="true">
             <task id="205" name="Montaggio Led NeoPixel" color="#8cb6ce" meeting="false" start="2018-04-20" duration="3" complete="0" expand="true"/>
