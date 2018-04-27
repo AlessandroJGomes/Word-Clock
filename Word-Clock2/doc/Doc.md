@@ -263,3 +263,9 @@ sottostante che ospiterà la scheda Arduino, le due Veroboard e l'alimentatore.
 ![Schema](../schemielettrici/NeoPixel-UserGuide-Arduino-Brancher-01.png)
 
 Questo è lo schema elettrico dei led stripes, i led devono essere collegati direttamente all'alimentatore ed inoltre un pin deve essere collegato all'arduino, così da poter gestire l'accensione di ogni led della striscia.
+
+#### Schema elettrico controllo on board
+
+![Schema](../schemielettrici/NeoPixel-UserGuide-Arduino-Brancher-01.png)
+
+Questo è lo schema elettrico dei led stripes, i led devono essere collegati direttamente all'alimentatore ed inoltre un pin deve essere collegato all'arduino, così da poter gestire l'accensione di ogni led della striscia.
