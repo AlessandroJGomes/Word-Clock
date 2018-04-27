@@ -266,6 +266,36 @@ Questo è lo schema elettrico dei led stripes, i led devono essere collegati dir
 
 #### Schema elettrico controllo on board
 
-![Schema](../schemielettrici/NeoPixel-UserGuide-Arduino-Brancher-01.png)
+![Schema](../schemielettrici/schemacompleto.png)
 
-Questo è lo schema elettrico dei led stripes, i led devono essere collegati direttamente all'alimentatore ed inoltre un pin deve essere collegato all'arduino, così da poter gestire l'accensione di ogni led della striscia.
+Questo è lo schema elettrico dei led stripes, i led devono essere collegati direttamente all'alimentatore ed inoltre un pin deve essere collegato all'arduino, così da poter gestire l'accensione di ogni led della striscia tramite gli appositi metodi.  
+
+## Implementazione
+
+### Sviluppo 
+
+#### Collegamento all'orario tramite DFC77
+
+Dapprima abbiamo scaricato delle librerie che necessitavamo per interagire con il componente. Abbiamo avuto molti problemi perchè una volta compilato il nostro codice perchè utilizzando la frequenza corretta non riuscuvamo a ricevere i dati dell'orario attuale, per risolvere il problema abbiamo
+
+### Test
+
+### Protocollo di test
+
+### Risultati test
+
+### Mancanze/limitazioni conosciute
+
+## Consuntivo
+
+## Conclusioni
+
+### Sviluppi futuri
+
+### Considerazioni personali
+
+## Bibligrafia
+
+### Sitografia
+
+## Allegati
