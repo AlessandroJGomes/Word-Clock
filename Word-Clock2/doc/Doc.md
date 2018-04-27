@@ -258,6 +258,8 @@ sottostante che ospiterà la scheda Arduino, le due Veroboard e l'alimentatore.
 
 ### Design schemi elettrici
 
-![Modello fisico](../schemi elettrici/NeoPixel-UserGuide-Arduino-Brancher-01.png)
+#### Schema elettrico
+
+![Schema](../schemielettrici/NeoPixel-UserGuide-Arduino-Brancher-01.png)
 
 Nell'immagine sovrastante.
