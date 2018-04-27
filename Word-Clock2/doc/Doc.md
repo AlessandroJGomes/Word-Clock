@@ -27,8 +27,6 @@
 
     - [Design dell’architettura fisica](#design-dell’architettura-fisica)
 
-    - [Design dei dati e database](#design-dei-dati-e-database)
-
 4. [Implementazione](#Implementazione)
 
     - [Sviluppo](#Sviluppo)
