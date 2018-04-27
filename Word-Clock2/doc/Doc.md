@@ -27,6 +27,9 @@
 
     - [Design dell’architettura fisica](#design-dellarchitettura-fisica)
 
+    - [Design schemi elettrici](#design-schemi-elettrici)
+
+
 4. [Implementazione](#Implementazione)
 
     - [Sviluppo](#Sviluppo)
@@ -253,3 +256,8 @@ della parte superiore del supporto, le misure sono visibili nell'immagine.
 Qua viene rappresentato tutto il contenitore, in cui e ben visibile lo spazio
 sottostante che ospiterà la scheda Arduino, le due Veroboard e l'alimentatore.
 
+### Design schemi elettrici
+
+![Modello fisico](../schemi elettrici/NeoPixel-UserGuide-Arduino-Brancher-01.png)
+
+Nell'immagine sovrastante.
