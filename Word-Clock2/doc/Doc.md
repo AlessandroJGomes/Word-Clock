@@ -23,9 +23,9 @@
 
 3. [Progettazione](#progettazione)
 
-    - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
+    - [Design dell’architettura del sistema](#design-dellarchitettura-del-sistema)
 
-    - [Design dell’architettura fisica](#design-dell’architettura-fisica)
+    - [Design dell’architettura fisica](#design-dellarchitettura-fisica)
 
 4. [Implementazione](#Implementazione)
 
