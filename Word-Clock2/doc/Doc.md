@@ -278,6 +278,10 @@ Questo è lo schema elettrico dei led stripes, i led devono essere collegati dir
 
 Abbiamo trovato il codice per utilizzare il componente DCF77 sul sito dell'arduino ed abbiamo scaricato delle librerie che necessitavamo per interagire con il componente inserendoli nel percorso libraries C:\Program Files (x86)\Arduino\libraries. Abbiamo avuto molti problemi perchè una volta compilato il nostro codice perchè utilizzando la frequenza corretta non riuscuvamo a ricevere i dati dell'orario attuale, per risolvere il problema abbiamo 
 
+#### Montaggio led stripes
+
+Per inserire i led stripes nel contrenitore
+
 ### Test
 
 ### Protocollo di test
