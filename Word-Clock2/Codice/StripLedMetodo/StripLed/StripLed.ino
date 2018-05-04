@@ -9,7 +9,7 @@ Adafruit_NeoPixel strip = Adafruit_NeoPixel(144, PIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
     strip.begin();
-    strip.setBrightness(40);
+    strip.setBrightness(50);
     strip.show();
 }
 
@@ -47,7 +47,7 @@ void loop() {
         strip.setPixelColor(j, 0, 0, 0);
       }
       else{
-        strip.setPixelColor(j, 255, 255, 255);
+        strip.setPixelColor(j, 255, 0, 255);
       }
     }
     strip.show();
