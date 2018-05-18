@@ -1,0 +1,5 @@
+Gestione illuminazione ore e minuti
+
+Nel loop principale é presente uno switch(ora) con 12 case che rappresentano le ore.
+
+Tramite il metodo setOra() gestisco la casistica dell'incremento dell'ora quando i minuti arrivano e superano i 40, appena arrivano 40 minuti gestisco l'orologio nel modo seguente: se i minuti sono maggiori di 40 allora incremento l'ora di 1, attivo la scritta meno, tramite una sottrazione (minutiDaSottrarre = 60 minuti - minutiCorrenti) trovo i minuti che mancano per l'ora "piena" (Es.:14:00) una volta trovati i minuti da sottrarre faccio minutiDaSottrarre % 5 così da trovare "il modo di gestire i minuti da illuminare, anche tramite degli if per usufruire anche del +, del - e dei pallini per i minuti dal 1 al 4. Esempio: sono le 13:39 allora scrivo --> "SONO LE UNA E TRENTACINQUE + ****", arrivano le 13:40 allora scrivo --> "SONO LE DUE MENO VENTI", arrivano le 13:48 allora scrivo --> "SONO LE DUE MENO DIECI - **, arrivano le 13:54 allora scrivo --> "SONO LE DUE MENO CINQUE - *, arrivano le 14:00 allora scrivo --> "SONO LE DUE".

@@ -180,14 +180,14 @@ Essendo due persone a lavorare in questo progetto, i costi vanno moltiplicati.
 
 #### Costo materiali:
 
-|**Materiale**                  |**Costo**|
-|-------------------------------|---------|
-|DCF77 RTC                      |12.94 fr.|
-|Led stripes NeoPixel 1m 66 Leds|         |
-|Arduino Uno                    |23.73 fr.|
-|                               |         |
-|                               |         |
-|Totale:                        |         |
+|**Materiale**                      |**Costo** |
+|-----------------------------------|----------|
+|DCF77 RTC                          |12.94 fr. |
+|Led stripes NeoPixel 5m 66 Leds X 2|137.62 fr.|
+|Arduino Uno                        |23.73 fr. |
+|                                   |          |
+|                                   |          |
+|Totale:                            |174.29 fr.|
 
 
 #### Costo totale:
@@ -196,7 +196,7 @@ Facendo una somma dei vari totali arriviamo al costo totale finale di questo pro
 
 |Totale          |
 |----------------|
-|                |
+|8814.29 fr.     |
 
 
 ### Pianificazione
