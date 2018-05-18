@@ -11,6 +11,11 @@ boolean m = false; //Variabile booleana che definisce l'attivazione della parola
 int minutiDaSottrarre = 0; //Variabile che contiene i minuti da sottrarre per arrivare all'ora piena.
 int gestioneMinuti = 0; //Variabile che aiuta a gestire le parole, i pallini e i simboli + e - per i minuti
 int stripeLength = 195; //Lunghezza striscia led.
+
+//   NEO_RGB     Pixels are wired for RGB bitstream
+//   NEO_GRB     Pixels are wired for GRB bitstream, correct for neopixel stick
+//   NEO_KHZ400  400 KHz bitstream (e.g. FLORA pixels)
+//   NEO_KHZ800  800 KHz bitstream (e.g. High Density LED strip), correct for neopixel stick
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(stripeLength, PIN, NEO_GRB + NEO_KHZ800); //Variabile che, tramite il suo metodo, gestisce il collegamento alla striscia di led neopixel.
 
 //Array per gestire i "casi speciali":

@@ -1,5 +1,4 @@
 #include <DCF77.h>
-
 #include <TimeLib.h>
 
 #define DCF_PIN 2                // Connection pin to DCF 77 device

@@ -5,6 +5,10 @@
 #define PIN 6
 int i = 0;
 bool dir = true;
+//   NEO_RGB     Pixels are wired for RGB bitstream
+//   NEO_GRB     Pixels are wired for GRB bitstream, correct for neopixel stick
+//   NEO_KHZ400  400 KHz bitstream (e.g. FLORA pixels)
+//   NEO_KHZ800  800 KHz bitstream (e.g. High Density LED strip), correct for neopixel stick
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(144, PIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
@@ -41,14 +45,10 @@ void loop() {
     strip.show();
     strip.setPixelColor(i, 0, 0, 0);
     */
-    dir = !dir;
+
     for(int j = 0; j < 144; j++){
-      if(dir){
-        strip.setPixelColor(j, 0, 0, 0);
-      }
-      else{
-        strip.setPixelColor(j, 255, 0, 255);
-      }
+
+        strip.setPixelColor(j, 255, 0, 0);
     }
     strip.show();
     
