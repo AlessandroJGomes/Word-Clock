@@ -185,8 +185,7 @@ Essendo due persone a lavorare in questo progetto, i costi vanno moltiplicati.
 |DCF77 RTC                          |12.94 fr. |
 |Led stripes NeoPixel 5m 66 Leds X 2|137.62 fr.|
 |Arduino Uno                        |23.73 fr. |
-|                                   |          |
-|                                   |          |
+|-----------------------------------|----------|
 |Totale:                            |174.29 fr.|
 
 
