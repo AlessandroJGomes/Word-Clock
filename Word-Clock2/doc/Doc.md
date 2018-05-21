@@ -50,7 +50,7 @@
 
     - [Considerazioni personali](#considerazioni-personali)
 
-8. [Bibliografia](#bibliografia)
+8. [Bibligrafia](#bibligrafia)
 
     - [Sitografia](#sitografia)
 
