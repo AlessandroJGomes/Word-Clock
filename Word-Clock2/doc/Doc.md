@@ -256,6 +256,13 @@ sottostante che ospiterà la scheda Arduino, le due Veroboard e l'alimentatore.
 
 ### Design schemi elettrici
 
+#### Montaggio antenna DCF77
+
+![Schema](Allegati/provaMontaggioDCF77.png)
+
+Questo é lo schema elettrico dell'antenna dcf77, questo schema serve per testare se l'antenna riceve un segnale e a che frequenza lo riceve. Questo montaggio può
+essere eseguito anche senza condensatore C1.
+
 #### Schema elettrico led stripes
 
 ![Schema](../schemielettrici/NeoPixel-UserGuide-Arduino-Brancher-01.png)
@@ -267,7 +274,8 @@ Questo è lo schema elettrico dei led stripes, i led devono essere collegati dir
 ![Schema](Allegati/ControlloOnBoard.PNG)
 
 Questo è lo schema elettrico del controllo on board del WordClock, l'idea era quella di poter accendere, spegnere e modificare l'ora a proprio piacimento tramite
-queesto montaggio.
+questo montaggio.
+
 ## Implementazione
 
 ### Sviluppo 
