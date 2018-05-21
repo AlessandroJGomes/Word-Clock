@@ -34,27 +34,27 @@
 
     - [Sincronizzazione orario](#sincronizzazione-orario)
 
-5. [Test](#Test)
+5. [Test](#test)
 
-	- [Protocollo di test](#Protocollo-di-test)
+	- [Protocollo di test](#protocollo-di-test)
 
-    - [Risultati test](#Risultati-test)
+    - [Risultati test](#risultati-test)
 
-    - [Mancanze/limitazioni conosciute](#Mancanze/limitazioni-conosciute)
+    - [Mancanze/limitazioni conosciute](#mancanze/limitazioni-conosciute)
 
-6. [Consuntivo](#Consuntivo)
+6. [Consuntivo](#consuntivo)
 
-7. [Conclusioni](#Conclusioni)
+7. [Conclusioni](#conclusioni)
 
-    - [Sviluppi futuri](#Sviluppi-futuri)
+    - [Sviluppi futuri](#sviluppi-futuri)
 
-    - [Considerazioni personali](#Considerazioni-personali)
+    - [Considerazioni personali](#considerazioni-personali)
 
-8. [Bibliografia](#Bibliografia)
+8. [Bibliografia](#bibliografia)
 
-    - [Sitografia](#Sitografia)
+    - [Sitografia](#sitografia)
 
-9. [Allegati](#Allegati)
+9. [Allegati](#allegati)
 
 
 ## Introduzione
