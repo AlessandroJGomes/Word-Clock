@@ -354,6 +354,24 @@ tramite una combinazione rgb.
 
 ![Schema](Allegati/cicloProvStripe.PNG)
 
+Una volta collegata la striscia di led all'Arduino e fatto partire il codice, il risultato sarà il seguente.
+
+![Schema](Allegati/risultatoProvaLed.JPG)
+
+#### WordClock_NeoPixel.ino
+
+Questo programma é quello che abbiamo usato per gestire l'illuminazione delle varie parole presenti all'interno del WordClock
+in base all'orario che riceviamo dall'antenna DCF77.
+
+![Schema](Allegati/WordClockLettere.png)
+
+Inizialmente abbiamo segnato ogni numero di ogni led alla sua corrispettiva lettera tramite un foglio semi-trasparente, in modo
+tale che sappiamo già il numero dei led che andranno a comporre ogni parola.
+
+![Schema](Allegati/mappaturaLed1.jpg)
+
+![Schema](Allegati/mappaturaLed2.jpg)
+
 ## Test
 
 ### Protocollo di test
