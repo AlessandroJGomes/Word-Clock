@@ -34,6 +34,8 @@
 
     - [Sincronizzazione orario](#sincronizzazione-orario)
 
+    - [Gestione illuminazione WordClock](#gestione-illuminazione-wordclock)
+
 5. [Test](#test)
 
 	- [Protocollo di test](#protocollo-di-test)
@@ -203,8 +205,6 @@ Facendo una somma dei vari totali arriviamo al costo totale finale di questo pro
 
 ### Analisi dei mezzi
 
-Questo prodotto sarà compreso in un costrutto di legno per il modello fisico, ed in un web server per il modello virtuale.
-
 I mezzi software per realizzare il progetto sono i seguenti:
 
 - GanttProject 2.8.5, software utilizzato per sviluppare il diagramma di Gantt
@@ -260,22 +260,23 @@ sottostante che ospiterà la scheda Arduino, le due Veroboard e l'alimentatore.
 
 ![Schema](Allegati/provaMontaggioDCF77.png)
 
-Questo é lo schema elettrico dell'antenna dcf77, questo schema serve per testare se l'antenna riceve un segnale e a che frequenza lo riceve. Questo montaggio può 
-essere eseguito anche senza condensatore C1.
+Questo é lo schema elettrico dell'antenna dcf77, questo schema serve per testare se l'antenna riceve un
+segnale e a che frequenza lo riceve. Questo montaggio può essere eseguito anche senza condensatore C1.
 
 #### Schema elettrico led stripes
 
 ![Schema](../schemielettrici/NeoPixel-UserGuide-Arduino-Brancher-01.png)
 
-Questo è lo schema elettrico dei led stripes, i led devono essere collegati direttamente all'alimentatore ed inoltre un pin deve essere collegato all'arduino, 
-così da poter gestire l'accensione di ogni led della striscia.
+Questo è lo schema elettrico dei led stripes, i led devono essere collegati direttamente all'alimentatore
+ed inoltre un pin deve essere collegato all'arduino, così da poter gestire l'accensione di ogni led della
+striscia.
 
 #### Schema elettrico controllo on board
 
 ![Schema](Allegati/ControlloOnBoard.PNG)
 
-Questo è lo schema elettrico del controllo on board del WordClock, l'idea era quella di poter accendere, spegnere e modificare l'ora a proprio piacimento tramite
-questo montaggio.
+Questo è lo schema elettrico del controllo on board del WordClock, l'idea era quella di poter accendere,
+spegnere e modificare l'ora a proprio piacimento tramite questo montaggio.
 
 ## Implementazione
 
@@ -283,13 +284,35 @@ questo montaggio.
 
 #### FrancoforteClock.ino
 
-Questo programma é quello che abbiamo utilizzato per testare e gestire la sincronizzazione tramite l'antenna DCF77 all'orario di Mainflingen, la località nei 
-pressi di Francoforte ed in cui é situato il trasmettitore DCF77. Questo codice di base é stato preso dal sito ufficiale di Arduino, per utilizzarlo però abbiamo 
-dovuto scaricare delle librerie che per la gestione del componente. Le librerie che abbiamo dovuto utilizzare effettivamente sono due:
+Questo programma é quello che abbiamo utilizzato per testare e gestire la sincronizzazione tramite
+l'antenna DCF77 all'orario di Mainflingen, la località nei pressi di Francoforte ed in cui é situato
+il trasmettitore DCF77. Questo codice di base é stato preso dal sito ufficiale di Arduino, per
+utilizzarlo però abbiamo dovuto scaricare delle librerie che per la gestione del componente.
+Le librerie che abbiamo dovuto utilizzare effettivamente sono due.
 
 ![Schema](Allegati/libreriedcf77.PNG)
 
 Queste due librerie le abbiamo inserite nel seguente percorso: _C:\Program Files (x86)\Arduino\libraries_.
+In seguito abbiamo dovuto creare tutte le variabili per gestire sia le "informazioni" in entrata sia
+tutte le "informazioni", una volta "lavorate" all'interno del codice, in uscita.
+
+![Schema](Allegati/variabiliDCF77.PNG)
+
+All'interno del metodo loop() é presente un controllo che verifica se effettivamente l'antenna DCF77
+é riuscita a collegarsi all'orario di Francoforte "if(DCFtempo!=0)" il quale controlla se l'orario 
+che é contenuto all'interno della variabile _DCFtempo_ sia diverso da 0. In caso l'orario sia diverso
+da 0 allora vuole dire che l'antenna si é sincronizzata con successo e quindi stampa l'orario a terminale.
+Una volta stampato l'orario a terminale lo vado a settare all'interno della libreria _"TimeLib.h"_ in modo
+tale da potere prendere i vari "pezzi" dell'orario nel metodo _digitalClockDisplay()_.
+
+![Schema](Allegati/controlloOrarioDCF77.PNG)
+
+I metodi _digitalClockDisplay()_ e _printDigits(int digits)_ servono per gestire la stampa a terminale del tempo suddiviso in:
+ore, minuti, secondi, giorni, mesi e anni.
+
+![Schema](Allegati/DCF77Stampa.PNG)
+
+### Gestione illuminazione WordClock
 
 #### Montaggio led stripes
 
