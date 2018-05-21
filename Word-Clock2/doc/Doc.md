@@ -260,14 +260,15 @@ sottostante che ospiterà la scheda Arduino, le due Veroboard e l'alimentatore.
 
 ![Schema](Allegati/provaMontaggioDCF77.png)
 
-Questo é lo schema elettrico dell'antenna dcf77, questo schema serve per testare se l'antenna riceve un segnale e a che frequenza lo riceve. Questo montaggio può
+Questo é lo schema elettrico dell'antenna dcf77, questo schema serve per testare se l'antenna riceve un segnale e a che frequenza lo riceve. Questo montaggio può 
 essere eseguito anche senza condensatore C1.
 
 #### Schema elettrico led stripes
 
 ![Schema](../schemielettrici/NeoPixel-UserGuide-Arduino-Brancher-01.png)
 
-Questo è lo schema elettrico dei led stripes, i led devono essere collegati direttamente all'alimentatore ed inoltre un pin deve essere collegato all'arduino, così da poter gestire l'accensione di ogni led della striscia.
+Questo è lo schema elettrico dei led stripes, i led devono essere collegati direttamente all'alimentatore ed inoltre un pin deve essere collegato all'arduino, 
+così da poter gestire l'accensione di ogni led della striscia.
 
 #### Schema elettrico controllo on board
 
@@ -282,7 +283,13 @@ questo montaggio.
 
 #### FrancoforteClock.ino
 
-Questo programma é quello che abbiamo utilizzato per testare e gestire la sincronizzazione tramite l'antenna DCF77 all'orario di Mainflingen, la località nei pressi di Francoforte ed in cui é situato il trasmettitore DCF77. Questo codice di base é stato preso dal sito ufficiale di Arduino, per utilizzarlo però abbiamo dovuto scaricare delle librerie che per la gestione del componente. Le librerie che abbiamo utilizzato effettivamente sono due: _"DCF77.h"_ e _"TimeLib.h"_, queste due librerie le abbiamo inserite nel seguente percorso: _C:\Program Files (x86)\Arduino\libraries_.
+Questo programma é quello che abbiamo utilizzato per testare e gestire la sincronizzazione tramite l'antenna DCF77 all'orario di Mainflingen, la località nei 
+pressi di Francoforte ed in cui é situato il trasmettitore DCF77. Questo codice di base é stato preso dal sito ufficiale di Arduino, per utilizzarlo però abbiamo 
+dovuto scaricare delle librerie che per la gestione del componente. Le librerie che abbiamo dovuto utilizzare effettivamente sono due:
+
+![Schema](Allegati/libreriedcf77.PNG)
+
+ _"DCF77.h"_ e _"TimeLib.h"_, queste due librerie le abbiamo inserite nel seguente percorso: _C:\Program Files (x86)\Arduino\libraries_.
 
 #### Montaggio led stripes
 
