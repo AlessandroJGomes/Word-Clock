@@ -3,11 +3,12 @@
 #include <Adafruit_NeoPixel.h>
 
 #define PIN 6
+int stripesLength = 195;
 //   NEO_RGB     Pixels are wired for RGB bitstream
 //   NEO_GRB     Pixels are wired for GRB bitstream, correct for neopixel stick
 //   NEO_KHZ400  400 KHz bitstream (e.g. FLORA pixels)
 //   NEO_KHZ800  800 KHz bitstream (e.g. High Density LED strip), correct for neopixel stick
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(195, PIN, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(stripesLength, PIN, NEO_GRB + NEO_KHZ800);
 
 int i = 0;
 bool dir = true;
@@ -72,11 +73,10 @@ void loop() {
     strip.setPixelColor(i+6, 0, 0, 0);
     
     
-    /*
-     * for(int j = 0; j < 195; j++){
-     *  strip.setPixelColor(i, 255, 0, 255);
-     * } 
-     */
+    
+    for(int j = 0; j < 195; j++){
+     strip.setPixelColor(i, 255, 0, 255);
+    } 
     strip.show();
     
     delay(10);

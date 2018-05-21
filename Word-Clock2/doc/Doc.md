@@ -333,12 +333,13 @@ la striscia di led neopixel all'Arduino.
 #### Illuminazione led stripes
 
 Inizialmente abbiamo dovuto capire il funzionamento delle led stripes e lo abbiamo capito tramite un semplice esempio di codice.
-Innanzitutto é necessario scaricare le librerie necessarie.
+Innanzitutto é necessario scaricare le librerie seguenti.
 
 ![Schema](Allegati/libreriestriscialed.PNG)
 
-In seguito abbiamo dovuto creare la variabile per definire il PIN d'uscita del segnale per il controllo delle stripes e abbiamo
-anche creato una variabile che servirà per la gestione dell'accensione dei vari led.
+In seguito abbiamo dovuto creare la variabile per definire il PIN d'uscita del segnale per il controllo delle stripes, la variabile
+contenente la lunghezza della striscia (misurata con il numero totale dei led presenti su di essa) e infine abbiamo creato una 
+variabile che servirà per la gestione dell'accensione dei vari led.
 
 ![Schema](Allegati/variabiliProvaneopixel.PNG)
 
