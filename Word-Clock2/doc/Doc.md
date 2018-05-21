@@ -32,7 +32,7 @@
 
 4. [Implementazione](#Implementazione)
 
-    - [Sviluppo](#Sviluppo)
+    - [Sincronizzazione orario](#sincronizzazione-orario)
 
 5. [Test](#Test)
 
@@ -41,7 +41,6 @@
     - [Risultati test](#Risultati-test)
 
     - [Mancanze/limitazioni conosciute](#Mancanze/limitazioni-conosciute)
-
 
 6. [Consuntivo](#Consuntivo)
 
@@ -280,7 +279,7 @@ questo montaggio.
 
 ## Implementazione
 
-### Sincronizzazione orario 
+### Sincronizzazione orario
 
 #### FrancoforteClock.ino
 
