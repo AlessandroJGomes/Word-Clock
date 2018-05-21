@@ -341,7 +341,7 @@ In seguito abbiamo dovuto creare la variabile per definire il PIN d'uscita del s
 contenente la lunghezza della striscia (misurata con il numero totale dei led presenti su di essa) e infine abbiamo creato una 
 variabile che servirà per la gestione dell'accensione dei vari led.
 
-![Schema](Allegati/s.PNG)
+![Schema](Allegati/variabiliProvaneopixel.PNG)
 
 All'interno del motodo setup() inizializziamo la striscia di led neopixel, impostiamo la luminosità dei led e li "visualizziamo"
 tramite il metodo _strip.show()_.
