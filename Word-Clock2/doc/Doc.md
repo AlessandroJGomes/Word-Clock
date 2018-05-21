@@ -317,7 +317,20 @@ ore, minuti, secondi, giorni, mesi e anni.
 
 #### Montaggio led stripes
 
-Per inserire i led stripes nel contrenitore
+Inizialemnte abbiamo dovuto vedere, in base alla grandezza della griglia del modello fisico (13x15), quale fosse il verso
+in cui ci sarebbero stati più led in una singola cella. Alla fine, dopo alcuni test, abbiamo ottato per montare le strisce
+di led sulle colonne della griglia con il seguente schema dei led: 3 led, _taglia_, 4 led, _taglia_, 3 led, _taglia_, 3 led,
+_taglia_. In questo modo siamo riusciti a montare tutti i led senza che nessuno di essi andasse sotto le "pareti" della
+griglia di compensato e di conseguenza non si vedesse quando illuminato o illuminasse due celle diverse.
+
+![Schema](Allegati/1.PNG)
+
+In seguito abbiamo anche dovuto praticare un foro sulla struttura esterna, in modo tale da fare passare i cavi che collegeranno
+la striscia di led neopixel all'Arduino.
+
+![Schema](Allegati/2.PNG)
+
+#### Illuminazione led stripes
 
 ## Test
 
