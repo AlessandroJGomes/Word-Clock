@@ -256,7 +256,7 @@ sottostante che ospiterà la scheda Arduino, le due Veroboard e l'alimentatore.
 
 ### Design schemi elettrici
 
-#### Montaggio antenna DCF77
+#### Schema elettrico antenna DCF77
 
 ![Schema](Allegati/provaMontaggioDCF77.png)
 
@@ -280,9 +280,9 @@ questo montaggio.
 
 ### Sviluppo 
 
-#### Collegamento all'orario tramite DCF77
+#### FrancoforteClock.ino
 
-Abbiamo trovato il codice per utilizzare il componente DCF77 sul sito dell'arduino ed abbiamo scaricato delle librerie che necessitavamo per interagire con il componente inserendoli nel percorso libraries C:\Program Files (x86)\Arduino\libraries. Abbiamo avuto molti problemi perchè una volta compilato il nostro codice perchè utilizzando la frequenza corretta non riuscuvamo a ricevere i dati dell'orario attuale, per risolvere il problema abbiamo 
+Questo programma é quello che abbiamo utilizzato per testare e gestire la sincronizzazione tramite l'antenna DCF77 all'orario di Mainflingen, la località nei pressi di Francoforte ed in cui é situato il trasmettitore DCF77. Questo codice di base é stato preso dal sito ufficiale di Arduino, per utilizzarlo però abbiamo dovuto scaricare delle librerie che per la gestione del componente. Le librerie che abbiamo utilizzato effettivamente sono due: _DCF77.h_ e _"TimeLib.h"_, queste due librerie le abbiamo inserite nel seguente percorso: _C:\Program Files (x86)\Arduino\libraries_.
 
 #### Montaggio led stripes
 
