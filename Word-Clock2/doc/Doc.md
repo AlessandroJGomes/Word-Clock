@@ -289,7 +289,7 @@ dovuto scaricare delle librerie che per la gestione del componente. Le librerie 
 
 ![Schema](Allegati/libreriedcf77.PNG)
 
- _"DCF77.h"_ e _"TimeLib.h"_, queste due librerie le abbiamo inserite nel seguente percorso: _C:\Program Files (x86)\Arduino\libraries_.
+Queste due librerie le abbiamo inserite nel seguente percorso: _C:\Program Files (x86)\Arduino\libraries_.
 
 #### Montaggio led stripes
 
