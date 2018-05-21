@@ -323,12 +323,12 @@ di led sulle colonne della griglia con il seguente schema dei led: 3 led, _tagli
 _taglia_. In questo modo siamo riusciti a montare tutti i led senza che nessuno di essi andasse sotto le "pareti" della
 griglia di compensato e di conseguenza non si vedesse quando illuminato o illuminasse due celle diverse.
 
-![Schema](Allegati/1.PNG)
+![Schema](Allegati/1.png)
 
 In seguito abbiamo anche dovuto praticare un foro sulla struttura esterna, in modo tale da fare passare i cavi che collegeranno
 la striscia di led neopixel all'Arduino.
 
-![Schema](Allegati/2.PNG)
+![Schema](Allegati/2.png)
 
 #### Illuminazione led stripes
 
