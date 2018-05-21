@@ -397,6 +397,30 @@ Il metodo setup() é identico a quello mostrato in precedenza nell'esempio.
 ![Schema](Allegati/setOra()1.PNG)
 ![Schema](Allegati/setOra()2.PNG)
 
+Questo metodo non é stato concluso a livello di codice per mancanza di tempo, ma si può trovare concluso a livello
+concettuale all'interno del file di testo "_Gestione illuminazione ore e minuti.txt_" (vedere allegati).
+
+##### Gestione simboli + e -
+
+![Schema](Allegati/setPiuMeno().PNG)
+
+##### Gestione dei pallini che rappresentano i minuti dall'1 al 4
+
+![Schema](Allegati/setMinutiPallini().PNG)
+
+##### Gestione dei pallini che rappresentano i secondi
+
+![Schema](Allegati/setSecondi().PNG)
+
+##### Metodo loop()
+
+All'interno di questo metodo inizialmente si richiamam il metodo setOra() che si occupa della gestione delle ore
+e, in base all'ora che ritorna, entra in uno dei 12 case dello switch(ora) presente nel metodo.
+
+![Schema](Allegati/loop()1.PNG)
+![Schema](Allegati/loop()2.PNG)
+![Schema](Allegati/loop()3.PNG)
+
 ## Test
 
 ### Protocollo di test
