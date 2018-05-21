@@ -40,7 +40,7 @@
 
     - [Risultati test](#risultati-test)
 
-    - [Mancanze/limitazioni conosciute](#mancanze-/-limitazioni-conosciute)
+    - [Mancanze conosciute](#mancanze-conosciute)
 
 6. [Consuntivo](#consuntivo)
 
@@ -301,7 +301,7 @@ Per inserire i led stripes nel contrenitore
 
 ### Risultati test
 
-### Mancanze/limitazioni conosciute
+### Mancanze conosciute
 
 ## Consuntivo
 
