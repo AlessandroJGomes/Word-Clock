@@ -34,27 +34,28 @@
 
     - [Sviluppo](#Sviluppo)
 
-    - [Test](#Test)
+5. [Test](#Test)
 
-    - [Protocollo di test](#Protocollo-di-test)
+	- [Protocollo di test](#Protocollo-di-test)
 
     - [Risultati test](#Risultati-test)
 
     - [Mancanze/limitazioni conosciute](#Mancanze/limitazioni-conosciute)
 
-5. [Consuntivo](#Consuntivo)
 
-6. [Conclusioni](#Conclusioni)
+6. [Consuntivo](#Consuntivo)
+
+7. [Conclusioni](#Conclusioni)
 
     - [Sviluppi futuri](#Sviluppi-futuri)
 
     - [Considerazioni personali](#Considerazioni-personali)
 
-7. [Bibliografia](#Bibliografia)
+8. [Bibliografia](#Bibliografia)
 
     - [Sitografia](#Sitografia)
 
-8. [Allegati](#Allegati)
+9. [Allegati](#Allegati)
 
 
 ## Introduzione
@@ -279,7 +280,7 @@ questo montaggio.
 
 ## Implementazione
 
-### Sviluppo 
+### Sincronizzazione orario 
 
 #### FrancoforteClock.ino
 
@@ -295,7 +296,7 @@ Queste due librerie le abbiamo inserite nel seguente percorso: _C:\Program Files
 
 Per inserire i led stripes nel contrenitore
 
-### Test
+## Test
 
 ### Protocollo di test
 
