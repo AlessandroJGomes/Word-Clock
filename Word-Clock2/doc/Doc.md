@@ -264,7 +264,7 @@ Questo è lo schema elettrico dei led stripes, i led devono essere collegati dir
 
 #### Schema elettrico controllo on board
 
-![Schema](../schemielettrici/schemacompleto.png)
+![Schema](Allegati/ControlloOnBoard.PNG)
 
 Questo è lo schema elettrico dei led stripes, i led devono essere collegati direttamente all'alimentatore ed inoltre un pin deve essere collegato all'arduino, così da poter gestire l'accensione di ogni led della striscia tramite gli appositi metodi.  
 
