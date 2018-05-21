@@ -354,7 +354,7 @@ tramite una combinazione rgb.
 
 ![Schema](Allegati/cicloProvStripe.PNG)
 
-Una volta collegata la striscia di led all'Arduino e fatto partire il codice, il risultato sarà il seguente.
+Una volta collegata la striscia di led all'Arduino ed eseguito il codice, il risultato sarà il seguente.
 
 ![Schema](Allegati/risultatoProvaLed.JPG)
 
@@ -371,6 +371,31 @@ tale che sappiamo già il numero dei led che andranno a comporre ogni parola.
 ![Schema](Allegati/mappaturaLed1.jpg)
 
 ![Schema](Allegati/mappaturaLed2.jpg)
+
+Per poter illuminare tutte le parole abbiamo dovuto creare molte variabile che andranno a rappresentare le parole, le frasi e/o
+i simboli per le ore, i minuti e i secondi. Ogniuna di esse sotto forma di array contenente il numero di tutti i led necessari
+per illuminarla.
+
+![Schema](Allegati/ArrayCasiSpeciali.PNG)
+
+![Schema](Allegati/arrayMinutiOre.PNG)
+
+In seguito ho anche creato le variabili _r_, _g_ e _b_ in modo tale da poter gestire il colore di tutti i led.
+
+Il metodo setup() é identico a quello mostrato in precedenza nell'esempio.
+
+##### Accensione dei led in base all'array
+
+![Schema](Allegati/metodoLedOn.PNG)
+
+##### Spegnimento di tutti i led
+
+![Schema](Allegati/metodoLedOff.PNG)
+
+##### Gestione dell'illuminazione delle ore
+
+![Schema](Allegati/setOra()1.PNG)
+![Schema](Allegati/setOra()2.PNG)
 
 ## Test
 

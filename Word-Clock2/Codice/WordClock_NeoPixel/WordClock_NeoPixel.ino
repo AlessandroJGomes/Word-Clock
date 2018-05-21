@@ -82,7 +82,9 @@ void spegniStripeLed() {
 }
 
 //Metodo che gestisce le ore.
-//Se i minuti superano i 40 allora incrementa l'ora di 1 e si attiva la parola meno.
+//Se i minuti superano i 40 allora incrementa l'ora di 1 e si attiva la parola meno
+//e se i minuti da sottrarre sono dei multipli di 5 allora utilizzo tranquillamente
+//le parole dei minuti che ho già senza dovere illuminare altro.
 void setOra() {
   Serial.println("Gestione ora");
   if (minuti >= 40) {
