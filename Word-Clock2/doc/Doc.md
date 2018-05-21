@@ -151,7 +151,7 @@ Data di fine: 18.05.2017
 
 |ID  |REQ-004                                         |
 |:----|:------------------------------------------------|
-|**Nome**    |Controllo OnBoard |
+|**Nome**    |Controllo on board |
 |**Priorità** |1                     |
 |**Versione** |1.0                   |
 |**Note**    ||
@@ -398,7 +398,8 @@ Il metodo setup() é identico a quello mostrato in precedenza nell'esempio.
 ![Schema](Allegati/setOra()2.PNG)
 
 Questo metodo non é stato concluso a livello di codice per mancanza di tempo, ma si può trovare concluso a livello
-concettuale all'interno del file di testo "_Gestione illuminazione ore e minuti.txt_" (vedere allegati).
+concettuale all'interno del file di testo "_Gestione illuminazione ore e minuti.txt_" presente nella stessa
+cartella del codice sorgente.
 
 ##### Gestione simboli + e -
 
@@ -425,11 +426,32 @@ e, in base all'ora che ritorna, entra in uno dei 12 case dello switch(ora) prese
 
 ### Protocollo di test
 
+![Schema](Allegati/TestCase1.PNG)
+![Schema](Allegati/TestCase2.PNG)
+
 ### Risultati test
+
+![Schema](Allegati/RisultatiTest.PNG)
 
 ### Mancanze conosciute
 
+Prima della consegna finale del progetto abbiamo riscontrato due mancanze molto importanti conosciute che
+riguardano quest’ultimo. La prima mancanza é quella dell'alimentazione esterna in caso di interruzione 
+di quella principale, non implementata a acausa delle tempistiche. La seconda mancanza é quella della 
+sincronizzazione tramite l'antenna DCF77 all'orario di Francoforte, inizialmente abbiamo lavorato su questa
+parte del progetto ma dopo molte lezioni abbiamo lasciato questa parte perché non riuscivamo a ricevere nulla.
+La terza mancanza é quella di concludere il codice che gestisce l'illuminazione delle parole del WordClock. 
+
 ## Consuntivo
+
+![Gantt](Allegati/ganttConsuntivo.PNG)
+
+### Commento consuntivo
+
+Abbiamo avuto molte difficoltà per quanto riguarda la parte della sincronizzazione tramite antenna DCF77, infatti
+abbiamo passato molte lezioni a lavorare su questo. Dopo abbiamo deciso di lasciare da parte questa parte e
+concentrarci sul montaggio e la gestione delle strisce di led neopixel, soltanto che abbiamo potuto cominciare sia
+il codice sia il montaggio tardi dato che i materiali sono arrivati un po' in ritardo.
 
 ## Conclusioni
 
@@ -442,3 +464,8 @@ e, in base all'ora che ritorna, entra in uno dei 12 case dello switch(ora) prese
 ### Sitografia
 
 ## Allegati
+
++ Diari di lavoro
++ Codici sorgente
++ Mandato
++ Presentazione
