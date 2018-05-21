@@ -30,7 +30,7 @@
     - [Design schemi elettrici](#design-schemi-elettrici)
 
 
-4. [Implementazione](#Implementazione)
+4. [Implementazione](#implementazione)
 
     - [Sincronizzazione orario](#sincronizzazione-orario)
 
