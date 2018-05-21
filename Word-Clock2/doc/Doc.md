@@ -285,14 +285,15 @@ spegnere e modificare l'ora a proprio piacimento tramite questo montaggio.
 #### FrancoforteClock.ino
 
 Questo programma é quello che abbiamo utilizzato per testare e gestire la sincronizzazione tramite
-l'antenna DCF77 all'orario di Mainflingen, la località nei pressi di Francoforte ed in cui é situato
+l'antenna DCF77 all'orario di Mainflingen, località nei pressi di Francoforte ed in cui é situato
 il trasmettitore DCF77. Questo codice di base é stato preso dal sito ufficiale di Arduino, per
 utilizzarlo però abbiamo dovuto scaricare delle librerie che per la gestione del componente.
-Le librerie che abbiamo dovuto utilizzare effettivamente sono due.
+Le librerie che abbiamo utilizzato effettivamente sono le seguenti due.
 
 ![Schema](Allegati/libreriedcf77.PNG)
 
 Queste due librerie le abbiamo inserite nel seguente percorso: _C:\Program Files (x86)\Arduino\libraries_.
+
 In seguito abbiamo dovuto creare tutte le variabili per gestire sia le "informazioni" in entrata sia
 tutte le "informazioni", una volta "lavorate" all'interno del codice, in uscita.
 
