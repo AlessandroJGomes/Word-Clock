@@ -265,7 +265,7 @@ segnale e a che frequenza lo riceve. Questo montaggio può essere eseguito anche
 
 #### Schema elettrico led stripes
 
-![Schema](../schemielettrici/NeoPixel-UserGuide-Arduino-Brancher-01.png)
+![Schema](Allegati/NeoPixel-UserGuide-Arduino-Brancher-01.png)
 
 Questo è lo schema elettrico dei led stripes, i led devono essere collegati direttamente all'alimentatore
 ed inoltre un pin deve essere collegato all'arduino, così da poter gestire l'accensione di ogni led della
@@ -290,14 +290,14 @@ il trasmettitore DCF77. Questo codice di base é stato preso dal sito ufficiale 
 utilizzarlo però abbiamo dovuto scaricare delle librerie che per la gestione del componente.
 Le librerie che abbiamo utilizzato effettivamente sono le seguenti due.
 
-![Schema](Allegati/libreriedcf77.PNG)
+![Codice](Allegati/libreriedcf77.PNG)
 
 Queste due librerie le abbiamo inserite nel seguente percorso: _C:\Program Files (x86)\Arduino\libraries_.
 
 In seguito abbiamo dovuto creare tutte le variabili per gestire sia le "informazioni" in entrata sia
 tutte le "informazioni", una volta "lavorate" all'interno del codice, in uscita.
 
-![Schema](Allegati/variabiliDCF77.PNG)
+![Codice](Allegati/variabiliDCF77.PNG)
 
 All'interno del metodo loop() é presente un controllo che verifica se effettivamente l'antenna DCF77
 é riuscita a collegarsi all'orario di Francoforte "if(DCFtempo!=0)" il quale controlla se l'orario 
@@ -306,12 +306,12 @@ da 0 allora vuole dire che l'antenna si é sincronizzata con successo e quindi s
 Una volta stampato l'orario a terminale lo vado a settare all'interno della libreria _"TimeLib.h"_ in modo
 tale da potere prendere i vari "pezzi" dell'orario nel metodo _digitalClockDisplay()_.
 
-![Schema](Allegati/controlloOrarioDCF77.PNG)
+![Codice](Allegati/controlloOrarioDCF77.PNG)
 
 I metodi _digitalClockDisplay()_ e _printDigits(int digits)_ servono per gestire la stampa a terminale del tempo suddiviso in:
 ore, minuti, secondi, giorni, mesi e anni.
 
-![Schema](Allegati/DCF77Stampa.PNG)
+![Codice](Allegati/DCF77Stampa.PNG)
 
 ### Gestione illuminazione WordClock
 
@@ -323,62 +323,62 @@ di led sulle colonne della griglia con il seguente schema dei led: 3 led, _tagli
 _taglia_. In questo modo siamo riusciti a montare tutti i led senza che nessuno di essi andasse sotto le "pareti" della
 griglia di compensato e di conseguenza non si vedesse quando illuminato o illuminasse due celle diverse.
 
-![Schema](Allegati/1.png)
+![Codice](Allegati/1.png)
 
 In seguito abbiamo anche dovuto praticare un foro sulla struttura esterna, in modo tale da fare passare i cavi che collegeranno
 la striscia di led neopixel all'Arduino.
 
-![Schema](Allegati/2.png)
+![Codice](Allegati/2.png)
 
 #### Illuminazione led stripes
 
 Inizialmente abbiamo dovuto capire il funzionamento delle led stripes e lo abbiamo capito tramite un semplice esempio di codice.
 Innanzitutto é necessario scaricare le librerie seguenti.
 
-![Schema](Allegati/libreriestriscialed.PNG)
+![Codice](Allegati/libreriestriscialed.PNG)
 
 In seguito abbiamo dovuto creare la variabile per definire il PIN d'uscita del segnale per il controllo delle stripes, la variabile
 contenente la lunghezza della striscia (misurata con il numero totale dei led presenti su di essa) e infine abbiamo creato una 
 variabile che servirà per la gestione dell'accensione dei vari led.
 
-![Schema](Allegati/variabiliProvaneopixel.PNG)
+![Codice](Allegati/variabiliProvaneopixel.PNG)
 
 All'interno del motodo setup() inizializziamo la striscia di led neopixel, impostiamo la luminosità dei led e li "visualizziamo"
 tramite il metodo _strip.show()_.
 
-![Schema](Allegati/setupProvaneopixel.PNG)
+![Codice](Allegati/setupProvaneopixel.PNG)
 
 All'interno del metodo loop() ci va un semplice ciclo for che continuerà a "ciclare" fino alla lunghezza totale della striscia
 di led. All'interno di questo ciclo c'é un semplicissimo metodo, a cui passeremo il numero del led e la tonalità del colore
 tramite una combinazione rgb.
 
-![Schema](Allegati/cicloProvStripe.PNG)
+![Codice](Allegati/cicloProvStripe.PNG)
 
 Una volta collegata la striscia di led all'Arduino ed eseguito il codice, il risultato sarà il seguente.
 
-![Schema](Allegati/risultatoProvaLed.JPG)
+![Risultato](Allegati/risultatoProvaLed.JPG)
 
 #### WordClock_NeoPixel.ino
 
 Questo programma é quello che abbiamo usato per gestire l'illuminazione delle varie parole presenti all'interno del WordClock
 in base all'orario che riceviamo dall'antenna DCF77.
 
-![Schema](Allegati/WordClockLettere.png)
+![Codice](Allegati/WordClockLettere.png)
 
 Inizialmente abbiamo segnato ogni numero di ogni led alla sua corrispettiva lettera tramite un foglio semi-trasparente, in modo
 tale che sappiamo già il numero dei led che andranno a comporre ogni parola.
 
-![Schema](Allegati/mappaturaLed1.jpg)
+![Codice](Allegati/mappaturaLed1.jpg)
 
-![Schema](Allegati/mappaturaLed2.jpg)
+![Codice](Allegati/mappaturaLed2.jpg)
 
 Per poter illuminare tutte le parole abbiamo dovuto creare molte variabile che andranno a rappresentare le parole, le frasi e/o
 i simboli per le ore, i minuti e i secondi. Ogniuna di esse sotto forma di array contenente il numero di tutti i led necessari
 per illuminarla.
 
-![Schema](Allegati/ArrayCasiSpeciali.PNG)
+![Codice](Allegati/ArrayCasiSpeciali.PNG)
 
-![Schema](Allegati/arrayMinutiOre.PNG)
+![Codice](Allegati/arrayMinutiOre.PNG)
 
 In seguito ho anche creato le variabili _r_, _g_ e _b_ in modo tale da poter gestire il colore di tutti i led.
 
@@ -386,16 +386,16 @@ Il metodo setup() é identico a quello mostrato in precedenza nell'esempio.
 
 ##### Accensione dei led in base all'array
 
-![Schema](Allegati/metodoLedOn.PNG)
+![Codice](Allegati/metodoLedOn.PNG)
 
 ##### Spegnimento di tutti i led
 
-![Schema](Allegati/metodoLedOff.PNG)
+![Codice](Allegati/metodoLedOff.PNG)
 
 ##### Gestione dell'illuminazione delle ore
 
-![Schema](Allegati/setOra()1.PNG)
-![Schema](Allegati/setOra()2.PNG)
+![Codice](Allegati/setOra()1.PNG)
+![Codice](Allegati/setOra()2.PNG)
 
 Questo metodo non é stato concluso a livello di codice per mancanza di tempo, ma si può trovare concluso a livello
 concettuale all'interno del file di testo "_Gestione illuminazione ore e minuti.txt_" presente nella stessa
@@ -403,35 +403,35 @@ cartella del codice sorgente.
 
 ##### Gestione simboli + e -
 
-![Schema](Allegati/setPiuMeno().PNG)
+![Codice](Allegati/setPiuMeno().PNG)
 
 ##### Gestione dei pallini che rappresentano i minuti dall'1 al 4
 
-![Schema](Allegati/setMinutiPallini().PNG)
+![Codice](Allegati/setMinutiPallini().PNG)
 
 ##### Gestione dei pallini che rappresentano i secondi
 
-![Schema](Allegati/setSecondi().PNG)
+![Codice](Allegati/setSecondi().PNG)
 
 ##### Metodo loop()
 
 All'interno di questo metodo inizialmente si richiamam il metodo setOra() che si occupa della gestione delle ore
 e, in base all'ora che ritorna, entra in uno dei 12 case dello switch(ora) presente nel metodo.
 
-![Schema](Allegati/loop()1.PNG)
-![Schema](Allegati/loop()2.PNG)
-![Schema](Allegati/loop()3.PNG)
+![Codice](Allegati/loop()1.PNG)
+![Codice](Allegati/loop()2.PNG)
+![Codice](Allegati/loop()3.PNG)
 
 ## Test
 
 ### Protocollo di test
 
-![Schema](Allegati/TestCase1.PNG)
-![Schema](Allegati/TestCase2.PNG)
+![Test](Allegati/TestCase1.PNG)
+![Test](Allegati/TestCase2.PNG)
 
 ### Risultati test
 
-![Schema](Allegati/RisultatiTest.PNG)
+![Test](Allegati/RisultatiTest.PNG)
 
 ### Mancanze conosciute
 
