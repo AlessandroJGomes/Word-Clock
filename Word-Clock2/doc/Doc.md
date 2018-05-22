@@ -455,13 +455,21 @@ il codice sia il montaggio tardi dato che i materiali sono arrivati un po' in ri
 
 ## Conclusioni
 
+Possiamo dire di aver lavorato in maniera molto seria anche se poi i risultati non sono stati dei migliori, anche perchè abbiamo potuto testare soltanto nelle ultime ore di progetto il funzionamento del programma sulla tavola, siccome abbiamo avuto soltanto 2 lezioni per montare il tutto visto che ci mancavano le strisce di LED.
+Con un poco di tempo in più avremmo concluso sicuramente il lavoro perchè ciò che attualmente manca sono dei dettagli.
+
 ### Sviluppi futuri
 
-### Considerazioni personali
+Sicuramente un primo obbiettivo sarebe quello di far funzionare il word-clock in maniera corretta, in seguito ci sarebbe da installare un alimentatore on-board e collegarsi all'orario della stazione di Meinfliegen in Germania.
 
 ## Bibligrafia
 
 ### Sitografia
+
+	+ www.arduino.cc
+	+ www.wikipedia.com
+	+ www.google.ch
+	+ www.github.com
 
 ## Allegati
 
